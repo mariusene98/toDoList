@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <!-- <link rel="stylesheet" href="style.css"/> -->
+    <link rel="stylesheet" href="style2.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+</head>
+<body>
+    <div class="titleUp">
+        <h2>To Do List</h2>
+        <div class="date"></div>
+    </div>
+    <div class="container">
+        <form class="form">
+            <!-- <h3>To Do List</h3> -->
+            <div class="input-container">
+                <input class="input" type="text" placeholder="insert a task"/>
+                <button class="doit-btn" type="submit"><i class="fas fa-arrow-alt-circle-right fa-lg"></i></button>
+            </div>
+        </form>
+        <div class="list">
+            <!-- adaugat dinamic -->
+        </div>     
+        <div class="icons">
+            <div class="bonus">
+                <button class="water-btn"><i class="fas fa-tint fa-lg"></i></button>
+                <button class="water-btn"><i class="fas fa-tint fa-lg"></i></button>
+                <button class="water-btn"><i class="fas fa-tint fa-lg"></i></button>
+                <button class="water-btn"><i class="fas fa-tint fa-lg"></i></button>
+                <button class="water-btn"><i class="fas fa-tint fa-lg"></i></button>
+            </div>
+            <div class="bonus">
+                <button class="face-btn"><i class="far fa-tired fa-lg"></i></button>
+                <button class="face-btn"><i class="far fa-frown fa-lg"></i></button>
+                <button class="face-btn"><i class="far fa-meh fa-lg"></i></i></button>
+                <button class="face-btn"><i class="far fa-smile fa-lg"></i></button>
+                <button class="face-btn"><i class="far fa-laugh fa-lg"></i></button>
+            </div>
+            <div class="bonus">
+                <button class="end"><i class="fas fa-power-off"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="hidden finish">
+        <h1>CONGRATULATIONS!</h1>
+        <div class="end-list">
+            
+        </div>
+    </div>
+    <script src="app.js" ></script>
+</body>
+</html>
